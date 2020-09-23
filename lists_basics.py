@@ -38,3 +38,12 @@ my_empty_list = []
 items_sold_new = items_sold + ['biscuit', 'tart']
 #print(items_sold_new)
 # ['cake', 'cookie', 'bread', 'biscuit', 'tart']
+
+# Range sets a range of numbers from 0-##
+range(7)
+
+# we call range with two arguments, we can create a list that starts at a different number. 
+# For example, range(2, 9) would generate numbers starting at 2 and ending at 8 (just before 9):
+range(2,9)
+
+
