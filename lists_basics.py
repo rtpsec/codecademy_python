@@ -64,3 +64,9 @@ print(len(employees))
 # len gets the total length
 
 print(employees[5])
+
+# Pulling from the end of the list
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+
+print(len(shopping_list))
+print(shopping_list[-1])
