@@ -70,3 +70,14 @@ shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
 
 print(len(shopping_list))
 print(shopping_list[-1])
+
+# More practice of pulling a specific element in the list
+hopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+
+print(len(shopping_list))
+print(shopping_list[-1])
+
+last_element = shopping_list[-1]
+element5 = shopping_list[5]
+
+print(last_element, element5)
