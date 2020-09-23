@@ -50,4 +50,8 @@ range(2,9)
 #For example, range(2, 9, 2) will give us a list where each number is 2 greater than the previous number:
 range(2,9,2)
 
+# Getting length
+list1 = range(2, 20, 3)
+list1_len = len(list1)
 
+print(list1_len)
