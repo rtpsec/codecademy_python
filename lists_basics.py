@@ -46,4 +46,8 @@ range(7)
 # For example, range(2, 9) would generate numbers starting at 2 and ending at 8 (just before 9):
 range(2,9)
 
+#If we use a third argument, we can create a list that “skips” numbers. 
+#For example, range(2, 9, 2) will give us a list where each number is 2 greater than the previous number:
+range(2,9,2)
+
 
