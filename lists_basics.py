@@ -26,3 +26,6 @@ print(names_and_dogs_names)
 print(list(names_and_dogs_names))
 # Output example
 # [('Jenny', 'Elphonse'), ('Alexus', 'Dr. Doggy DDS'), ('Sam', 'Carter'), ('Grace', 'Ralph')]
+
+# Empty list with nothing
+my_empty_list = []
