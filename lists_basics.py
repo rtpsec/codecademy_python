@@ -22,3 +22,7 @@ names_and_dogs_names = zip(names, dogs_names)
 print(names_and_dogs_names)
 # output example
 # <zip object at 0x7fe996ee7b08>
+
+print(list(names_and_dogs_names))
+# Output example
+# [('Jenny', 'Elphonse'), ('Alexus', 'Dr. Doggy DDS'), ('Sam', 'Carter'), ('Grace', 'Ralph')]
