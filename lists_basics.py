@@ -55,3 +55,12 @@ list1 = range(2, 20, 3)
 list1_len = len(list1)
 
 print(list1_len)
+
+# Selecting a value from the list.  The list values start at 0.  If you use a value higher than what is in the list, it will generate an error
+employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
+
+index4 = employees[4]
+print(len(employees))
+# len gets the total length
+
+print(employees[5])
