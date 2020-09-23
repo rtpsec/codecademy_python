@@ -33,3 +33,8 @@ print(list(names_and_dogs_names))
 
 # Empty list with nothing
 my_empty_list = []
+
+# Combining Lists using a + symbol.
+items_sold_new = items_sold + ['biscuit', 'tart']
+#print(items_sold_new)
+# ['cake', 'cookie', 'bread', 'biscuit', 'tart']
