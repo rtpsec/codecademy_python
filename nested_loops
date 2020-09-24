@@ -1,0 +1,9 @@
+# our list has 3 lists technically.  We're doing two loop statements to dig into each list and add them up
+
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+scoops_sold = 0
+
+for location in sales_data:
+  for scoops in location:
+    scoops_sold = scoops_sold + scoops
+    print(scoops_sold)
