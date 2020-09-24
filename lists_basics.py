@@ -81,3 +81,14 @@ last_element = shopping_list[-1]
 element5 = shopping_list[5]
 
 print(last_element, element5)
+
+
+# Removing from one list and adding to another
+all_students = ["Alex", "Briana", "Cheri", "Daniele", "Dora", "Minerva", "Alexa", "Obie", "Arius", "Loki"]
+students_in_poetry = []
+
+
+while len(students_in_poetry) < 6:
+  students_in_poetry.append(all_students.pop(-1))
+
+print(students_in_poetry)
