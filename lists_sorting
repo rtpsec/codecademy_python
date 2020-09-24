@@ -14,3 +14,15 @@ sorted_cities = cities.sort()
 sorted_addresses = addresses.sort()
 
 print(sorted_addresses)
+
+
+#. Another method is to use SORTED
+
+games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+
+games_sorted = sorted(games)
+
+print(games_sorted)
+
+#example output
+['Minecraft', 'Pacman', 'Pokemon', 'Portal', 'Tetris', 'The Sims']
