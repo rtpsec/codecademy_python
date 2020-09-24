@@ -1,3 +1,5 @@
+# Break will stop the loop from continuing once it finds what it's looking for.
+
 dog_breeds_available_for_adoption = ['french_bulldog', 'dalmatian', 'shihtzu', 'poodle', 'collie']
 dog_breed_I_want = 'dalmatian'
 
