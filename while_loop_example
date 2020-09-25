@@ -8,3 +8,17 @@ while len(students_in_poetry) < 6:
   students_in_poetry.append(all_students.pop(-1))
 
 print(students_in_poetry)
+
+
+# another loop
+
+#Write your function here
+def delete_starting_evens(lst):
+  while len(lst) > 1:
+    for i in lst:
+      if i % 2 == 0:
+        lst = lst[1:]
+      else:
+        break
+    return lst
+    
