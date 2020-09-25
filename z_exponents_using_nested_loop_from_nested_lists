@@ -1,0 +1,11 @@
+#Write your function here
+def exponents(bases, powers):
+  answers = []
+
+  for i in bases:
+    for x in powers:
+      answers.append(i ** x)
+  return answers
+
+#Uncomment the line below when your function is done
+print(exponents([2, 3, 4], [1, 2, 3]))
