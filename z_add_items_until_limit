@@ -1,0 +1,14 @@
+# The limit is 9000 in this example
+# It uses break to stop processing the loop.
+def over_nine_thousand(lst):
+  total = 0
+  for i in lst:
+    if total > 9000:
+      break
+    else:
+      total = total + i
+  return total
+
+
+#Uncomment the line below when your function is done
+print(over_nine_thousand([8000, 900, 120, 5000]))
