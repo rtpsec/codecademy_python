@@ -1,0 +1,19 @@
+# In this file we're comparing the first numbers of list1 to the last numbers to list2.  I use pop to remove the last entry for it to move on to the next number.
+# I had to use break after false to keep the False boolean
+
+#Write your function here
+def reversed_list(lst1, lst2):
+  status = True
+  for index in range(len(lst1)):
+    if lst1[index] == lst2[-1]:
+      status = True
+      lst2.pop(-1)
+    else:
+      status = False
+      break
+  return status
+
+
+#Uncomment the lines below when your function is done
+print(reversed_list([1, 2, 3], [3, 2, 1]))
+print(reversed_list([1, 5, 3], [3, 2, 1]))
